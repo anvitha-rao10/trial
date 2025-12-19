@@ -7,6 +7,7 @@ services:
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
+      
       - ./jenkins/casc.yaml:/var/jenkins_home/casc.yaml
       - ./jenkins/seed-job.groovy:/var/jenkins_home/seed-job.groovy
       - ./jenkins/plugins.txt:/usr/share/jenkins/ref/plugins.txt
