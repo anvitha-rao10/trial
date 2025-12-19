@@ -1,0 +1,14 @@
+jenkins:
+  systemMessage: |
+    Agentic AI DevOps Jenkins
+    Configured automatically using Jenkins Configuration as Code.
+
+  numExecutors: 2
+  scmCheckoutRetryCount: 2
+
+unclassified:
+  location:
+    url: http://localhost:8080/
+
+jobs:
+  - file: /var/jenkins_home/seed-job.groovy

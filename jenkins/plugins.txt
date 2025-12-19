@@ -1,0 +1,9 @@
+configuration-as-code
+git
+git-client
+github
+workflow-aggregator
+pipeline-stage-view
+ssh-agent
+job-dsl
+credentials-binding
