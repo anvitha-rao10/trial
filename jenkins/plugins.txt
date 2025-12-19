@@ -1,9 +1,9 @@
 configuration-as-code
+job-dsl
 git
 git-client
 github
 workflow-aggregator
 pipeline-stage-view
 ssh-agent
-job-dsl
 credentials-binding
