@@ -4,7 +4,7 @@ pipelineJob('agentic-ai-devops-pipeline') {
             scm {
                 git {
                     remote {
-                        url('git@github.com:anvitha-rao10/trail.git')
+                        url('git@github.com:anvitha-rao10/trial.git')
                         credentials('github-ssh-key')
                     }
                     branches('*/main')
